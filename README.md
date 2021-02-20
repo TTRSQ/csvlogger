@@ -1,6 +1,6 @@
 # csvlogger
 
-struct csv logger
+loging struct to csv splited by day.
 
 ## usage
 
