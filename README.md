@@ -27,7 +27,7 @@ func main() {
 
 ### result
 
-`sample.20210220.log`
+`sample.20210220.csv`
 ```
 Hoge,Fuga
 hoge_0,0
