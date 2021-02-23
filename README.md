@@ -1,6 +1,6 @@
 # csvlogger
 
-loging struct to csv splited by day.
+struct => csv logger for go.
 
 ## usage
 
