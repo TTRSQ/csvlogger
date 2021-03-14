@@ -10,13 +10,17 @@ import (
 	"time"
 )
 
+type Logger interface {
+	Add(data interface{})
+}
+
 type csvLogger struct {
 	basePath  string
 	fileNamme string
 }
 
 // NewLogger .. Create logger.
-func NewLogger(basePath, fileNamme string) (*csvLogger, error) {
+func NewLogger(basePath, fileNamme string) (Logger, error) {
 	if basePath == "" {
 		basePath = "./"
 	}
